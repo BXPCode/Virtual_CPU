@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>软件主体由菜单栏、工具栏、指令代码框、数据通路动态演示区和寄存器组监视器五大模块组成。
+ 
+菜单栏
+文件
+新建		软件自动新建一个“code.txt”文件，保存用户汇编指令代码框中编写的汇编指令，实现汇编语言即时编辑编译的功能
+打开		打开用户的汇编指令文件，将文件中的汇编指令编译为机器指令
+保存		保存程序运行过程中各机器周期寄存器组的状态值
+退出		退出软件
+调试
+开始执行	用户即时编程模式：编程编译用户新建的“code.txt”文件中的指令，并给PC赋初值，将机器指令装载进内存；文件打开模式：将给PC赋初值，机器指令装载进内存
+一键执行	执行全部指令
+单指令执行	按机器周期执行指令
+单微指令执行按节拍执行指令
+复位		置为初始状态
+帮助
+使用帮助	打开使用帮助文件
+
+工具栏
+新建		软件自动新建一个“code.txt”文件，保存用户汇编指令代码框中编写的汇编指令，实现汇编语言即时编辑编译的功能
+打开		打开用户的汇编指令文件，将文件中的汇编指令编译为机器指令
+保存		保存程序运行过程中各机器周期寄存器组的状态值
+启动		用户即时编程模式：编程编译用户新建的“code.txt”文件中的指令，并给PC赋初值，将机器指令装载进内存；文件打开模式：将给PC赋初值，机器指令装载进内存
+一键执行	执行全部指令
+单指令执行	按机器周期执行指令
+单微指令执行按节拍执行指令
+停止		置为初始状态
+
+指令代码框
+上面为汇编指令代码框，下面为机器指令代码框。
+（其中指令代码框支持汇编指令的编写功能）
+
+数据通路动态演示区
+四个圆形内显示指令执行时的机器周期。
+单微指令执行时，对应微操作的标签会在数据通路图中显示。
+
+寄存器组监视器
+实时显示CPU内部各寄存器值和内存、BUS总线上的值。
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJfoVACj6GRgo+hlaKPkZjCj5
+        Gawo+Rm8KPkZvij6Ga4o+RmSKPkZYij6GSQn+hcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ/kYAij5GUwo+Rm6KPkZ+in6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KfkZ/Cj5Gcoo+RliJ/oZBgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACj6GTQo+RnGKPoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8o+hnaKPoZTiD/
+        EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACn6GQIo+hl4KPoZ+Cn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8o+hn/KPoZnCf6GQoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAn+hgGKPoZnin6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/KPkZwij6GRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKPoYAij6
+        GZwp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KPoZxCj5GQoAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAo+RlwKfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj6GeQo+hlgKPoZUij6
+        Gc4p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KPoZoCj/GAAAAAAAAAAAAAAA
+        AAAAAAAAKPkZKij5GfYp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KPkZUgAA
+        AAAAAAAAKPoZJCj5Gvop+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8o+hn/KPoZVAAA
+        AAAAAAAAAAAAACj8GAAo+hm6Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8o+Rk2AAAAAAAAAAAo+hkOKPoZ9in6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8o+hngKPoZCgAAAAAAAAAAKPkZPCj5Gfwp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yj6GbIo+RkQKPkYBij5GYop+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8o+hlsAAAAAAAAAAAo+RmoKfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj6GfQo+RnuKfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj5GdYo+RgCJ/kZDCj6GfIp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KPkZ8ij5GeYp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KfkZ/yj5GTAo+RlCKfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj6Gcgo+hkOKPsYAij5GZop+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KPkZcij6GXIp+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KPkZggAAAAAAAAAAKPkaUin6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8o+hmiKPoZkCn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8o+RmAAAAAAAAA
+        AAAo+hkuKPkZ+Cn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj5
+        GcAo+RmeKfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj5
+        Gcwo+hgEAAAAACD+EAAo+RlSKPoZ9Cn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/KPkZzij5GZ4p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yj6GZgm+hcEAAAAAAAAAAAo+Rk0KPkZ5Cn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8o+RnMKPoZjCn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj6GbAo+hkQAAAAAAAAAAAo+RkoKPoZ6in6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj5Gb4o+RlsKfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8o+RnwKPkZZCj6GU4o+RnaKfoa/yn6Gv8p+hr/Kfoa/yj6GdAo+hkYAAAAAAAAAAAo+hlYKfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KPkZnCj6GTwp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yj5GYwAAAAAAAAAACj5GWwp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj6Ga4AAAAAAAAAACj6
+        GQgo+hnyKfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8o+hlsJ/oZCCj6Ge4p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/KPkZiAAAAAAAAAAAKPkZJij5Gfop+hr/Kfoa/yn6Gv8p+hr/KPkZ2AAA
+        AAAAAAAAAAAAACj5GeIp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/KfkZ/yj5GSoAAAAAKPoZoCn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8o+hnAIP4QAAAAAAAAAAAAKPoZgCj6Gv8p+hr/Kfoa/yn5
+        Gv8o+Rl8AAAAAAAAAAAo+RkKKPkZ9Cn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8o+RnQKPkYAgAA
+        AAAo+Rk2KPkZ/Cn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj5Gfoo+RkuAAAAAAAAAAAm+hgCKPkZXCj5
+        GbAo+hmmKPoZWCf5GAIAAAAAAAAAACj5GUIp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj5
+        GWQAAAAAAAAAACj6GAAo+Rm0Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj5Gcgn+hgKAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAn+hkCKPoZtCn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8o+RncKPoZCAAAAAAAAAAAAAAAACj6GSYo+Rn0Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj6
+        GcAo+RkaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKPoZBCj5GYwp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/KfoZ/Cj5GUwAAAAAAAAAAAAAAAAAAAAAAAAAACj5GWYp+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yj6Ge4o+hmIKPkZPij6GRwo+hkYKPkZMCj5GWoo+hnSKfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8o+hmUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJfoVACj6GZAp+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/KPkZuCj6GQYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKPoaAij6
+        GY4p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj5GbQo+hkMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAJfoVACj5GWYo+Rn0Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj5Gfwo+hmKJ/sZBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACj6GSYo+hm2KPoa/Cn6Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yn6Gv8o+hnOKPoZPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACX8FgAo+hk8KPkZqij6GfQp+hr/Kfoa/yn6
+        Gv8p+hr/Kfoa/yn6Gv8p+hr/Kfoa/yj6Gfoo+hm6KPoZTij6GQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKPoZDij5
+        GUoo+hl8KPkZnij5Gawo+hmuKPkZoij5GYQo+hlUKPoZFij/GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA//gf///AA///AAD//gAAP/gAAB/wAAAP8AGAB+ADwAfAA8ADwAGAA4AA
+        AAGAAAABgAGAAYABwAAAAcAAAAHgAAAA8AAAAHgAgDA8AIA4HAGAOBwBgDg8AcA+fAPAH/gD4A/wB/AD
+        4AfwAAAP+AAAH/4AAD//AAD//8AD///8H/8=
+</value>
+  </data>
+</root>
